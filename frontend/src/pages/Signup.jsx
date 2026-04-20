@@ -1,7 +1,7 @@
 import { useState } from "react";
 const API_BASE = import.meta.env.VITE_API_BASE_URL;
 
-API_BASE = "https://sussexsplitwise-backend-bkgcbxfackggh7be.canadacentral-01.azurewebsites.net";
+const API_BASE = "https://sussexsplitwise-backend-bkgcbxfackggh7be.canadacentral-01.azurewebsites.net";
 
 export default function Signup({ setPage }) {
     const [username, setUsername] = useState("");
